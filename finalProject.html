@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <!-- Name: Melissa Williams
+	  Blackboard User Name: Melissa Williams
+	  Filename: finalProject.html
+	  Class Section: WEB.115.0002
+	  
+	-->
+	<link href='https://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="projectCSS.css">
+    <title>Resume Project</title>
+</head>
+<body>
+	<header>
+      <h1>Melissa Williams Build Your Resume</h1>
+	 
+    </header>
+    <form action="resume.html" name="form1" method = "GET">
+		
+        <h2>Please enter the following details:</h2>
+		<br>
+        <p><li><label>Email: </label> <input type="email" name="Email"></p>
+		
+        <fieldset>
+		  <legend>Resume Heading</legend>
+		  <ul>
+		  <li><label>Name: </label><input type="text" name="Name" value="Your name"></li>
+		  <li><label>Pronouns: </label><input type="text" name="Pronouns" value= "he/she/they"></li>
+		  <li><label>Phone Number: </label> <input type="text" name="Phone" value="(XXX)XXX-XXXX"></li>
+		  <li><label>Website: </label> <input type="text" name="Website" value = "Website URL" ></li>
+		  <li><label>Mailing Address: </label> <input type="text" name="Address" value="123 Main St, Cary NC"></li>
+		  
+		</ul>
+		</fieldset>
+        </p>
+		
+        <p>
+		<fieldset>
+		  <legend>Highlights</legend>
+		  <ul>
+		  <li><label> </label><input type="text" name="High1" value = "Public Speaking"></li>
+		  <li><label> </label><input type="text" name="High2" value = "Leadership"></li>
+		  <li><label> </label><input type="text" name="High3" value = "Content Writer"></li>
+		  </ul>
+		</fieldset> 
+        </p>
+		
+		<p>
+		<fieldset>
+		  <legend>Educational Background:</legend>
+		  <ul>
+		  <li><label> Highest degree earned: </label><input type="text" name="Degree" value = "Bachelor of Fine Art"></li>
+		  <li><label> Relevant areas of study:</label><textarea name="Courses" cols="60" rows="5" />Basket-weaving, Bioethics, Culinary Arts...</textarea></li>
+		  </ul>
+		</fieldset>
+		</p>
+		
+		<p>
+		<fieldset>
+		  <legend>Employment History</legend>
+		  <ul>
+		    <li><label>Date started:</label><input type="date" id="startDate" name="startDate"></li>
+			<li><label>Date ended:</label><input type="date" id="endDate" name="endDate"></li>
+			<li><label>Employer and Job position details:</label><textarea name="Exp1" cols="60" rows="5" />Chipotle, kitchen manager. </textarea></li>
+			<br>
+			<li><label>Date started:</label><input type="date" id="startDate2" name="startDate2"></li>
+			<li><label>Date ended:</label><input type="date" id="endDate2" name="endDate2"></li>
+			<li><label>Employer and Job position details:</label><textarea name="Exp2" cols="60" rows="5" />Taco Bell, kitchen manager. </textarea></li>
+			<br>
+			<li><label>Date started:</label><input type="date" id="startDate3" name="startDate3"></li>
+			<li><label>Date ended:</label><input type="date" id="endDate3" name="endDate3"></li>
+			<li><label>Employer and Job position details:</label><textarea name="Exp3" cols="60" rows="5" />Panera, cashier. </textarea></li>
+			<li><label>References:</label> Name: <input type="text" id="ref1" name="ref1" value="Colleague1"> Phone: <input type="text" id="ref2" name="ref2" value="(XXX)XXX-XXXX"> </li>
+		  </ul>
+		</fieldset>
+		</p>
+		
+		 <p>
+            <input type="submit" class = "button" value="Submit Resume" />
+        </p>
+		<br>
+		<br>
+		<br>
+    </form>
+
+    <script src = "resume_projectJS.js">
+    
+    </script>
+</body>
+</html>
